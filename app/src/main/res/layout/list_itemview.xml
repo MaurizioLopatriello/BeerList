@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/beer_Image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/beer"
+        android:layout_margin="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/beer_name"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:text="BlondeBeer"
+        android:textSize="25dp"
+        app:layout_constraintStart_toEndOf="@+id/beer_Image"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tagline_text"
+        android:layout_width="210dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="12dp"
+        android:text="tagLine text"
+        android:textSize="17dp"
+        app:layout_constraintStart_toEndOf="@+id/beer_Image"
+        app:layout_constraintTop_toBottomOf="@+id/beer_name" />
+
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:text="Abv"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/beer_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Abv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="grade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tagline_text"
+        app:layout_constraintTop_toBottomOf="@+id/textViewType" />
+</androidx.constraintlayout.widget.ConstraintLayout>
