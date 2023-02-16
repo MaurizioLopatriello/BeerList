@@ -1,8 +1,9 @@
-package com.android.example.beerlist
+package com.android.example.beerlist.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.android.example.beerlist.SecondActivity
 import com.android.example.beerlist.databinding.ActivityMainBinding
 import com.google.android.material.snackbar.Snackbar
 

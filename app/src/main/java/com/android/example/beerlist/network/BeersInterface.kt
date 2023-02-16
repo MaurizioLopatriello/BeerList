@@ -1,4 +1,4 @@
-package com.android.example.beerlist
+package com.android.example.beerlist.network
 
 import retrofit2.http.GET
 

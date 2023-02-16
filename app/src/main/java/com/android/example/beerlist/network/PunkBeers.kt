@@ -1,4 +1,4 @@
-package com.android.example.beerlist
+package com.android.example.beerlist.network
 
 import android.os.Parcel
 import android.os.Parcelable

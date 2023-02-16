@@ -1,4 +1,4 @@
-package com.android.example.beerlist
+package com.android.example.beerlist.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.android.example.beerlist.network.PunkBeers
+import com.android.example.beerlist.R
 import com.bumptech.glide.Glide
 
 class BeerListViewHolder(view: View) : RecyclerView.ViewHolder(view) {
@@ -23,7 +25,7 @@ class BeerListViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 }
 
 class BeerListAdapter(
-    private val beerList: List<PunkBeers>
+    private val beerList: List<PunkBeers>,
 ) : RecyclerView.Adapter<BeerListViewHolder>() {
     var onItemClick: ((PunkBeers) -> Unit)? = null
 
