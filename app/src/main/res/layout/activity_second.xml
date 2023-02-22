@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context=".SecondActivity"
+    tools:context=".ui.SecondActivity"
     android:layout_margin="20dp"
     android:id="@+id/swipe_refresh">
 
@@ -13,6 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
+
+
 
 
         <TextView
@@ -36,6 +38,16 @@
             app:layout_constraintTop_toBottomOf="@+id/secondMessage"
             tools:itemCount="6"
             tools:listitem="@layout/list_itemview" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/listView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

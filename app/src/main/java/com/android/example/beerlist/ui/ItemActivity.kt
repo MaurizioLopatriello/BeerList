@@ -3,7 +3,6 @@ package com.android.example.beerlist.ui
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.android.example.beerlist.SecondActivity
 import com.android.example.beerlist.databinding.ActivityItemBinding
 import com.android.example.beerlist.network.PunkBeers
 import com.bumptech.glide.Glide
