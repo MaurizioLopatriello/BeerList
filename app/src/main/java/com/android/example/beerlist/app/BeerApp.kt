@@ -1,4 +1,4 @@
-package com.android.example.beerlist
+package com.android.example.beerlist.app
 
 import android.app.Application
 import com.android.example.beerlist.network.BeerListProvider

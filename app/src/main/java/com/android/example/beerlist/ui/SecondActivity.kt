@@ -1,7 +1,6 @@
 package com.android.example.beerlist.ui
 
 import android.annotation.SuppressLint
-import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -9,8 +8,7 @@ import android.view.View.INVISIBLE
 import android.view.View.VISIBLE
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
-import com.android.example.beerlist.BeerApp
+import com.android.example.beerlist.app.BeerApp
 import com.android.example.beerlist.adapter.BeerListAdapter
 import com.android.example.beerlist.databinding.ActivitySecondBinding
 import com.android.example.beerlist.network.PunkBeers
